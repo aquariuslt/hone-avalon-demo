@@ -1,0 +1,17 @@
+{
+  "name": "hono-avalon-deno",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "format": "prettier --write \"./src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.14",
+    "prettier": "^3.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
